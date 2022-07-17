@@ -83,7 +83,7 @@ export const Services = (props) => {
               <FaStreetView />
             </i>
             <div className="service-desc">
-              <h3>Virtual en Augemented reality</h3>
+              <h3>Virtual en Augmented reality</h3>
             </div>
           </div>
           <div className="col-md-4">
