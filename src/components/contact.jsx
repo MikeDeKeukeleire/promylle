@@ -119,7 +119,7 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             &copy; 2022{" "}
-            <a href="https://flaco.media" rel="nofollow">
+            <a href="https://flacomedia.be" rel="nofollow" target="_blank">
               Flaco Media
             </a>
           </p>
