@@ -119,8 +119,8 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             &copy; 2022{" "}
-            <a href="https://flacomedia.be" rel="nofollow" target="_blank">
-              Flaco Media
+            <a href="https://mikedk.be" rel="nofollow" target="_blank">
+              Mike De Keukeleire
             </a>
           </p>
         </div>
