@@ -13,23 +13,7 @@ export const Contact = (props) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
-  const clearState = () => setState({ ...initialState });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(name, email, message);
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
   return (
     <div>
       <div id="contact">
@@ -42,7 +26,11 @@ export const Contact = (props) => {
                   Vul onderstaand formulier in om contact met me op te nemen!
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form
+                action="https://formsubmit.co/4e286097734ab12f55057e5a7b26044a"
+                method="POST"
+                validate
+              >
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">
@@ -86,6 +74,17 @@ export const Contact = (props) => {
                   <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
+
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="http://localhost:3000/#contact"
+                />
+                <input type="hidden" name="_subject" value="Nieuw bericht!" />
+                <input type="text" name="_honey" style={{ display: "none" }} />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_template" value="table"></input>
+
                 <button type="submit" className="btn btn-custom btn-lg">
                   Verstuur
                 </button>
@@ -119,8 +118,8 @@ export const Contact = (props) => {
         <div className="container text-center">
           <p>
             &copy; 2022{" "}
-            <a href="https://mikedk.be" rel="nofollow" target="_blank">
-              Mike De Keukeleire
+            <a href="http://flacomedia.be" rel="nofollow" target="_blank">
+              Flaco Media
             </a>
           </p>
         </div>
