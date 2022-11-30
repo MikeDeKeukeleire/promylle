@@ -144,6 +144,7 @@ hr {
   margin-bottom: 70px;
 }
 .section-title h2 {
+  color: white;
   position: relative;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -286,6 +287,11 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
+#testimonials h2::after {
+  position: absolute;
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+}
 #about .about-text li {
   margin-bottom: 6px;
   margin-left: 6px;
@@ -313,7 +319,7 @@ header .intro-text {
 }
 /* Services Section */
 #services {
-  padding: 100px 0;
+  padding: 0px 0;
   background: linear-gradient(to right, #0a2e57 0%, #3552a3 100%);
   color: #fff;
 }
@@ -406,10 +412,10 @@ header .intro-text {
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
-  background: #f6f6f6;
+  background: linear-gradient(to right, #0a2e57 0%, #3552a3 100%);
 }
 #testimonials i {
-  color: #e6e6e6;
+  color: #ffffff;
   font-size: 32px;
   margin-bottom: 20px;
 }
@@ -434,6 +440,7 @@ header .intro-text {
 }
 .testimonial-content p {
   margin-bottom: 0;
+  color: white;
   font-size: 14px;
   font-style: italic;
 }
@@ -441,7 +448,7 @@ header .intro-text {
   margin-top: 10px;
   font-size: 15px;
   font-weight: 600;
-  color: #666;
+  color: rgb(255, 255, 255);
 }
 /* Team Section */
 #team {
@@ -463,7 +470,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
+  padding: 0px 0 60px;
   background: linear-gradient(to right, #0a2e57 0%, #3552a3 100%);
   color: rgba(255, 255, 255, 0.75);
 }
@@ -602,9 +609,21 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
+#contacthref {
+  color: white;
+}
 
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  #contact h3 {
+    display: none;
+  }
+  #about h2 {
+    padding-top: 80px;
   }
 }

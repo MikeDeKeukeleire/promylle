@@ -39,7 +39,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder="Naam"
                         required
                         onChange={handleChange}
                       />
@@ -67,7 +67,7 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
+                    placeholder="Bericht"
                     required
                     onChange={handleChange}
                   ></textarea>
@@ -78,7 +78,7 @@ export const Contact = (props) => {
                 <input
                   type="hidden"
                   name="_next"
-                  value="http://localhost:3000/#contact"
+                  value="http://promylle.be/#contact"
                 />
                 <input type="hidden" name="_subject" value="Nieuw bericht!" />
                 <input type="text" name="_honey" style={{ display: "none" }} />
@@ -93,14 +93,18 @@ export const Contact = (props) => {
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Contact Info</h3>
+              <h3>
+                <br></br>
+              </h3>
             </div>
             <div className="contact-item">
               <p>
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                <a href="tel:+32485 04 80 88" id="contacthref">
+                  {props.data ? props.data.phone : "loading"}
+                </a>
               </p>
             </div>
             <div className="contact-item">
@@ -108,7 +112,9 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-envelope-o"></i> Email
                 </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                <a href="mailto:info@promylle.be" id="contacthref">
+                  {props.data ? props.data.email : "loading"}
+                </a>
               </p>
             </div>
           </div>
