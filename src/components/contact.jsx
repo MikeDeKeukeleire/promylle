@@ -123,7 +123,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2022{" "}
+            2022{" "}
             <a href="http://flacomedia.be" rel="nofollow" target="_blank">
               Flaco Media
             </a>
