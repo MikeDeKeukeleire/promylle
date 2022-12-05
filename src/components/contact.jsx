@@ -27,7 +27,7 @@ export const Contact = (props) => {
                 </p>
               </div>
               <form
-                action="https://formsubmit.co/4e286097734ab12f55057e5a7b26044a"
+                action="https://formsubmit.co/info@promylle.be"
                 method="POST"
                 validate
               >
