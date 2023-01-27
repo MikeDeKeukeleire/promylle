@@ -4,8 +4,14 @@
     "paragraph": "Keynote speaker & digital evangelist"
   },
   "About": {
-    "paragraph": "Al jaren gepassioneerd door de technologische revolutie en de impact die dit heeft op mensen en bedrijven met een specialisatie in het (digitale) leven na de dood. Mijn kracht ligt in het vertalen van complexe technologische nieuwigheden naar begrijpbare materie voor de doorsnee burger.",
-    "Why": ["Hedendaags", "Toegankelijk", "Oog op de toekomst"],
+    "paragraph": "Al jaren gepassioneerd door de technologische revolutie en de impact die dit heeft op mensen en bedrijven met een specialisatie in het (digitale) leven na de dood. Zijn kracht ligt in het vertalen van complexe technologische nieuwigheden naar begrijpbare materie voor de doorsnee burger.",
+    "Why": [
+      "Koen Mylle (1965)",
+      "West-Vlaming",
+      "Gehuwd en (plus)papa van 5 kinderen",
+      "Opleiding: ingenieur in de elektronica",
+      "+20 jaar verkoopdirecteur in Brussel"
+    ],
     "Why2": [
       "Aliquip ex ea commodo",
       "Lorem ipsum dolor",
@@ -64,6 +70,11 @@
       "name": "René B",
       "img": "",
       "text": "U brengt een schitterende voordracht. Vlot gebracht, zeer volledig en op een aantrekkelijke en begrijpende manier. Proficiat, top. Sedert jaar en dag is dit mijn stokpaardje en volg ik al talrijke voordracht over “the future” in al zijn aspecten. Meestal wil men te diep en te technisch worden, maar deze was de meest toegankelijke die ik al heb bijgewoond."
+    },
+    {
+      "name": "Bart V",
+      "img": "",
+      "text": "Informatief, zeer toegankelijk en voorzien van grappige kwinkslagen maken dit geheel tot een topavond. Het was 'Learning with pleasure'."
     }
   ]
 }
