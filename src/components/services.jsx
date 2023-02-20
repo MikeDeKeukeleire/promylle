@@ -24,10 +24,10 @@ export const Services = (props) => {
         <div className="row">
           <div className="col-md-4">
             <i className="fa">
-              <FaRobot />
+              <FaInternetExplorer />
             </i>
             <div className="service-desc">
-              <h3>Robots</h3>
+              <h3>Metaverse</h3>
             </div>
           </div>
           <div className="col-md-4">
@@ -88,10 +88,10 @@ export const Services = (props) => {
           </div>
           <div className="col-md-4">
             <i className="fa">
-              <FaInternetExplorer />
+              <FaRobot />
             </i>
             <div className="service-desc">
-              <h3>Web3 en de Metaverse</h3>
+              <h3>Robots</h3>
             </div>
           </div>
         </div>

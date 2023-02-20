@@ -670,3 +670,9 @@ label {
     margin: 0 0 0 0;
   }
 }
+
+.headertekst {
+  background-color: rgba(53, 82, 163, 0.7);
+  padding: 0.5em;
+  border-radius: 20px;
+}

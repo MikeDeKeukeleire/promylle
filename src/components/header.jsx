@@ -11,12 +11,14 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
-                  href="#about"
-                  className="btn btn-custom btn-lg page-scroll scrollbtn"
-                >
-                  Explore the future!
-                </a>{" "}
+                <p class="headertekst">
+                  "U brengt een schitterende voordracht. Vlot gebracht, zeer
+                  volledig en op een aantrekkelijke en begrijpende manier.
+                  Proficiat, top. Sedert jaar en dag is dit mijn stokpaardje en
+                  volg ik al talrijke voordracht over “the future” in al zijn
+                  aspecten. Meestal wil men te diep en te technisch worden, maar
+                  deze was de meest toegankelijke die ik al heb bijgewoond."
+                </p>{" "}
               </div>
             </div>
           </div>
