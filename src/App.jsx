@@ -1,13 +1,15 @@
-import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { About } from "./components/about";
-import { Services } from "./components/services";
-import { Contact } from "./components/contact";
-import { Testimonials } from "./components/testimonials";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { Robots } from "./components/details/Robots";
-import JsonData from "./data/data.json";
+import { Home } from "./components/home/home";
+import { Routes, Route } from "react-router-dom";
+import { Robots } from "./components/details/Robots/Robots";
+import { Ai } from "./components/details/Ai/Ai";
+import { Crypto } from "./components/details/Crypto/Crypto";
+import { DrieDee } from "./components/details/DrieDee/DrieDee";
+import { Eeuwige } from "./components/details/Eeuwige/Eeuwige";
+import { Grootmoeder } from "./components/details/Grootmoeder/Grootmoeder";
+import { Me } from "./components/details/Me/Me";
+import { Metaverse } from "./components/details/Metaverse/Metaverse";
+import { Vr } from "./components/details/Vr/Vr";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 
@@ -17,29 +19,24 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 
 const App = () => {
-  const [landingPageData, setLandingPageData] = useState({});
-  useEffect(() => {
-    setLandingPageData(JsonData);
-  }, []);
-
   return (
     <>
-      <Router>
-        <Switch>
-          <Route path="/">
-            <Navigation />
-            <Header data={landingPageData.Header} />
-            <About data={landingPageData.About} />
-            <Services data={landingPageData.Services} />
-            <Testimonials data={landingPageData.Testimonials} />
-            <Contact data={landingPageData.Contact} />
-          </Route>
-          <Route path="/robots">
-            <Navigation />
-            <Robots />
-          </Route>
-        </Switch>
-      </Router>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/robots" element={<Robots />} />
+        <Route path="/kunstmatige-intelligentie" element={<Ai />} />
+        <Route path="/3dprinting" element={<DrieDee />} />
+        <Route path="/het-eeuwige-leven-binnen-handbereik" element={<Eeuwige />} />
+        <Route
+          path="/technologie-op-grootmoeders-wijze"
+          element={<Grootmoeder />}
+        />
+        <Route path="/me-myself-and-my-avatar" element={<Me />} />
+        <Route path="/metaverse" element={<Metaverse />} />
+        <Route path="/virtualreality" element={<Vr />} />
+        <Route path="/crypto" element={<Crypto />} />
+      </Routes>
     </>
   );
 };

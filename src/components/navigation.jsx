@@ -5,7 +5,7 @@ export const Navigation = (props) => {
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
-          <a className="page-scroll" href="#page-top">
+          <a className="page-scroll" href="/">
             <img src={logo} style={{ maxWidth: 150 }} />
           </a>{" "}
         </div>
@@ -16,17 +16,17 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#about" className="page-scroll">
+              <a href="/#about" className="page-scroll">
                 Koen Mylle
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
+              <a href="/#services" className="page-scroll">
                 Sessies
               </a>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <a href="/#contact" className="page-scroll">
                 Contact
               </a>
             </li>
