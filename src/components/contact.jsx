@@ -102,7 +102,7 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-phone"></i> Phone
                 </span>{" "}
-                <a href="tel:+32485 04 80 88" id="contacthref">
+                <a href="tel:+320485 04 80 88" id="contacthref">
                   {props.data ? props.data.phone : "loading"}
                 </a>
               </p>

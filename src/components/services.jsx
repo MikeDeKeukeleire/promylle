@@ -8,6 +8,7 @@ import {
   FaRegObjectGroup,
   FaStreetView,
   FaInternetExplorer,
+  FaGlobe,
 } from "react-icons/fa";
 
 export const Services = (props) => {
@@ -17,7 +18,7 @@ export const Services = (props) => {
         <div className="section-title">
           <h2>Sessies</h2>
           <p>
-            Een humoristische ethische realistische en futuristische kijk op de
+            Een realistische futuristische ethische en humoristische kijk op de
             toekomst
           </p>
         </div>
@@ -25,7 +26,7 @@ export const Services = (props) => {
           <a href="/metaverse">
             <div className="col-md-4">
               <i className="fa">
-                <FaInternetExplorer />
+                <FaGlobe />
               </i>
               <div className="service-desc">
                 <h3>Metaverse</h3>

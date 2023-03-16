@@ -329,6 +329,7 @@ header .intro-text {
   margin: 10px 10px 20px;
 }
 #services h2 {
+  padding-top: 50px;
   color: #fff;
 }
 #services .section-title h2::after {
@@ -413,7 +414,6 @@ header .intro-text {
 }
 /* Testimonials Section */
 #testimonials {
-  padding: 100px 0;
   background: linear-gradient(to right, #0a2e57 0%, #3552a3 100%);
 }
 #testimonials i {
