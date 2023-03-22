@@ -38,6 +38,9 @@ export const Eeuwige = () => {
                 …<br /> Boek vandaag nog deze boeiende lezing.
               </p>
             </div>
+            <a className="btn btn-custom btn-lg" href="/#contact">
+              Boek nu!
+            </a>
           </div>
         </div>
       </div>

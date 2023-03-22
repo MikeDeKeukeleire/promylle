@@ -8,6 +8,7 @@ html {
   width: 100% !important;
   height: 100% !important;
   overflow-x: hidden;
+  background: linear-gradient(to right, #0a2e57 0%, #3552a3 100%);
 }
 h2,
 h3,
@@ -484,7 +485,7 @@ header .intro-text {
 }
 #contact h2 {
   color: #fff;
-  margin-top: 10px;
+  margin-top: 50px;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }

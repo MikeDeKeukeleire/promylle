@@ -27,6 +27,9 @@ export const Crypto = () => {
                 deze nieuwe cryptowereld.
               </p>
             </div>
+            <a className="btn btn-custom btn-lg" href="/#contact">
+              Boek nu!
+            </a>
           </div>
         </div>
       </div>

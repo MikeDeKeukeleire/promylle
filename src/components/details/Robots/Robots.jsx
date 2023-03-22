@@ -29,6 +29,9 @@ export const Robots = () => {
                 van robotica en de impact op onze samenleving.
               </p>
             </div>
+            <a className="btn btn-custom btn-lg" href="/#contact">
+              Boek nu!
+            </a>
           </div>
         </div>
       </div>

@@ -38,6 +38,9 @@ export const Vr = () => {
                 vragen, dan is deze voordracht een sterke aanrader.
               </p>
             </div>
+            <a className="btn btn-custom btn-lg" href="/#contact">
+              Boek nu!
+            </a>
           </div>
         </div>
       </div>
